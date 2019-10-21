@@ -6,19 +6,20 @@ import logo from '../../assets/images/login_logo.png';
 import { white } from '../../assets/colors';
 
 import styles from './styles';
+import { translate } from '../../locales';
 
 function Login() {
   const [user, setUser] = useState('');
 
   function btnClick() {
-    console.log('clicou');
+    console.log(user);
   }
   return (
     <View style={styles.container}>
       <StatusBar backgroundColor={white} barStyle='light-content' />
       <Image style={styles.loginLogo} source={logo} />
       <InputImage
-        placeholder='Digite seu usuário'
+        placeholder={translate('placeholderTxt')}
         placeholderTextColor={white}
         style={styles.inputUser}
         onChangeText={text => setUser(text)}

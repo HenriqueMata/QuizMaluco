@@ -4,10 +4,11 @@ import { primaryDark, white } from '../../assets/colors';
 const styles = StyleSheet.create({
   inputImage: {
     borderWidth: 1,
-    padding: 10,
+    paddingLeft: 10,
     borderColor: primaryDark,
     borderRadius: 16,
     color: white,
+    fontSize: 16,
   },
 });
 

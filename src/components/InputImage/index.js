@@ -2,12 +2,22 @@ import React from 'react';
 import { TextInput } from 'react-native';
 import styles from './styles';
 
-const InputImage = props => {
-  const { style } = props;
-  console.log(props);
+const InputImage = ({
+  style,
+  placeholder,
+  placeholderTextColor,
+  onChangeText,
+  value,
+}) => {
   return (
     <React.Fragment>
-      <TextInput style={[styles.inputUser, style]} />
+      <TextInput
+        placeholder={placeholder}
+        placeholderTextColor={placeholderTextColor}
+        style={[styles.inputImage, style]}
+        onChangeText={onChangeText}
+        value={value}
+      />
     </React.Fragment>
   );
 };
