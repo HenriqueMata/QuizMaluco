@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { primaryDark, primary } from '../../assets/colors';
+import { primaryDark, primary, white } from '../../assets/colors';
 
 const styles = StyleSheet.create({
   container: {
@@ -17,13 +17,11 @@ const styles = StyleSheet.create({
   inputUser: {
     width: '100%',
     height: 60,
-    borderWidth: 1,
-    padding: 10,
   },
   btnLogin: {
     width: '70%',
     height: 55,
-    borderRadius: 8,
+    borderRadius: 32,
     alignItems: 'center',
     justifyContent: 'center',
     padding: 10,
