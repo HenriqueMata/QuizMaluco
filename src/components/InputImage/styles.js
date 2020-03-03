@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { primaryDark, white } from '../../assets/colors';
+import { primaryDark } from '../../assets/colors';
 
 const styles = StyleSheet.create({
   inputImage: {
@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     paddingLeft: 10,
     borderColor: primaryDark,
     borderRadius: 16,
-    color: white,
+    color: primaryDark,
     fontSize: 16,
   },
 });

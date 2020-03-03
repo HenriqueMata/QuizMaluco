@@ -1,11 +1,11 @@
 import { StyleSheet } from 'react-native';
-import { primaryDark, primary } from '../../assets/colors';
+import { white, primary } from '../../assets/colors';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    backgroundColor: primary,
+    backgroundColor: white,
     padding: 16,
   },
   loginLogo: {
@@ -20,12 +20,12 @@ const styles = StyleSheet.create({
   },
   btnLogin: {
     width: '70%',
-    height: 55,
+    height: 50,
     borderRadius: 32,
     alignItems: 'center',
     justifyContent: 'center',
     padding: 10,
-    backgroundColor: primaryDark,
+    backgroundColor: primary,
     marginTop: 32,
   },
   txtBtnLogin: {
